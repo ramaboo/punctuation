@@ -3,3 +3,6 @@
 
 # Gem
 *.gem
+
+# Temp
+/tmp
