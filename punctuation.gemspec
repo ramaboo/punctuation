@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.description   = 'Punctuation is no fun! Let us make it easy again!'
   s.authors       = ['David Singer']
   s.email         = 'david@ramaboo.com'
-  s.files         = Dir['lib/**/*', 'LICENCE', 'README.md']
+  s.files         = Dir['app/**/*', 'lib/**/*', 'LICENCE', 'README.md']
+  s.test_files    = Dir['spec/**/*']
   s.require_paths = ['lib']
   s.homepage      = 'https://github.com/ramaboo/punctuation'
   s.license       = 'MIT'

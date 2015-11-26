@@ -1,7 +1,12 @@
 require 'spec_helper'
 
 describe Punctuation do
-  it 'true' do
-    expect(true).to be_truthy
+  describe '#configure' do
+    before do
+      Punctuation.configure do |config|
+        config.ending_punctuation = '.!'
+        config.all_punctuation = '!"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~'
+      end
+    end
   end
 end
