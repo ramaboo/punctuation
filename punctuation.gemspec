@@ -13,4 +13,8 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.homepage      = 'https://github.com/ramaboo/punctuation'
   s.license       = 'MIT'
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
+  s.add_deveelopment_dependency 'rubocop'
 end
