@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version       = Punctuation::VERSION
   s.platform      = Gem::Platform::RUBY
   s.summary       = 'Punctuation made simple!'
-  s.description   = 'Punctuation made simple!'
+  s.description   = 'Punctuation is no fun! Let us make it easy again!'
   s.authors       = ['David Singer']
   s.email         = 'david@ramaboo.com'
   s.files         = Dir['lib/**/*', 'LICENCE', 'README.md']
