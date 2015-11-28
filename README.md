@@ -24,3 +24,17 @@ Run the generator:
 ```
 rails generate punctuation:install
 ```
+
+## Helpers
+
+Add punctuation with:
+
+```
+with_punctuation('I think I forgot the period') # => "I think I forgot the period."
+```
+
+Remove punctuation with:
+
+```
+without_punctuation('No period needed.') # => "No period needed"
+```
