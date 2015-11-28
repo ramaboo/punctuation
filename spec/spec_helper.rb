@@ -1,4 +1,8 @@
 require 'punctuation'
+require 'rspec'
+require 'ammeter/init'
+
+Dir[File.dirname(__FILE__) + '/support/**/*.rb'].each { |f| require f }
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -8,4 +12,14 @@ RSpec.configure do |config|
   config.mock_with :rspec do |mocks|
     mocks.verify_partial_doubles = true
   end
+
+  config.filter_run :focus
+  config.run_all_when_everything_filtered = true
+
+  config.disable_monkey_patching!
+
+  config.warnings = true
+
+  config.order = :random
+  Kernel.srand config.seed
 end

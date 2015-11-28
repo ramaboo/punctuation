@@ -1,4 +1,5 @@
 # Configure all options available in Punctuation.
-Punctuation.setup do |config|
-
+Punctuation.configure do |config|
+  # config.ending_punctuation = '.!'
+  # config.all_punctuation = '!"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~'
 end

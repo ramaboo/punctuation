@@ -1,8 +1,14 @@
 # Bundler
 /.bundle
 
-# Gem
+# Dummy App
+/spec/dummy/db/*.sqlite3
+/spec/dummy/db/*.sqlite3-journal
+/spec/dummy/log
+/spec/dummy/tmp
+
+# Gems
 *.gem
 
-# Temp
+# Temp Files
 /tmp

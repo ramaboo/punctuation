@@ -1,4 +1,7 @@
 AllCops:
+  Exclude:
+    - 'spec/dummy/**/*'
+    - 'tmp/**/*'
   RunRailsCops: true
 
 Documentation:
